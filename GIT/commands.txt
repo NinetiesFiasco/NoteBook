@@ -1,2 +1,11 @@
+/*
+* Глобальные данные которые попадут в комиты
+*/
 git config --global user.name "Anton Seredin"
-git config --global user.emais "example@email.com"
+git config --global user.email "example@email.com"
+
+/*
+* Локальные данные которые попадут в комиты
+*/
+git config user.name "testUser"
+git config user.meail "test@emails@com"
