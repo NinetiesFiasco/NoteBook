@@ -9,3 +9,8 @@ git config --global user.email "example@email.com"
 */
 git config user.name "testUser"
 git config user.meail "test@emails@com"
+
+/*
+* Добавить файл в контроллер GIT
+*/
+git add file.txt
