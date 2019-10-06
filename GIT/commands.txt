@@ -14,3 +14,23 @@ git config user.meail "test@emails@com"
 * Добавить файл в контроллер GIT
 */
 git add file.txt
+
+/*
+* Проверка состояния
+*/
+git status
+
+/*
+* Поглядеть комиты
+* можно добавить автора или другие свойства для поиска
+*/
+git log --pretty=oneline
+
+/*
+* Скачать репозиторий
+*/
+git clone https://github.com/NinetiesFiasco/any.git
+/*
+* Загрузить репозиторий
+*/
+git push -u origin master
