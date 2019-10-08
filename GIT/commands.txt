@@ -1,4 +1,8 @@
 /*
+* Установка Ubuntu
+*/
+apt-get install git
+/*
 * Глобальные данные которые попадут в комиты
 */
 git config --global user.name "Anton Seredin"
@@ -30,6 +34,14 @@ git log --pretty=oneline
 * Скачать репозиторий
 */
 git clone https://github.com/NinetiesFiasco/any.git
+/*
+* Создать ветку
+*/
+git checkout -b "newBranch"
+/*
+* Выбрать ветку
+*/
+git checkout newBranch
 /*
 * Загрузить репозиторий
 */
