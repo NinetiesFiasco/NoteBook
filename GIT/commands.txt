@@ -3,6 +3,10 @@
 */
 apt-get install git
 /*
+* Создать репозиторий
+*/
+git init
+/*
 * Глобальные данные которые попадут в комиты
 */
 git config --global user.name "Anton Seredin"
