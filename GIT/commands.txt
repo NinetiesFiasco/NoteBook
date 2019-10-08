@@ -50,3 +50,9 @@ git checkout newBranch
 * Загрузить репозиторий
 */
 git push -u origin master
+/*
+* Подтянуть обновлённые файлы с удалённого репозитория
+*/
+git init
+git remote add <URL to GIT>
+git pull origin master
