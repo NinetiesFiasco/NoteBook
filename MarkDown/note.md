@@ -31,8 +31,8 @@
 > с помощью угловой скобки >
 
 Блок кода ставится с помощью абратного апострофа (где буква Ё)  
-    `include_once 'myGoodlib.js';<br/>
-    return something;`
+    `include_once 'myGoodlib.js';`
+    `return something;`
 
 Горизонтальная линия ставится с помощью --- или ***
 ***
