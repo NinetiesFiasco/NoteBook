@@ -26,13 +26,6 @@
 1. spisok
 
 + spisok
-+ spisok
-+ spisok
-
-* spisok
-* spisok
+- spisok
 * spisok
 
-- spisok
-- spisok
-- spisok
