@@ -38,3 +38,7 @@
 ***
 
 [Link на Rambler](www.rambler.ru "Подсказка про ссылку")
+
+*Kursiv*
+
+**Jirniy**
