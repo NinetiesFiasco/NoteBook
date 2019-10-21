@@ -20,3 +20,19 @@
 #### head four
 ##### head five
 ###### head six
+
+1. spisok
+1. spisok
+1. spisok
+
++ spisok
++ spisok
++ spisok
+
+* spisok
+* spisok
+* spisok
+
+- spisok
+- spisok
+- spisok
