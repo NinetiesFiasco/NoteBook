@@ -26,7 +26,7 @@ proftpd
 * sudo /etc/init.d/proftpd restart - перезапуск сервиса
 * //Создать пользователя  
 ftpasswd --passwd --file=/etc/proftpd/ftpd.passwd --name=user --uid=34 --gid=34 --home=/var/www/user --shell=/bin/false
-* https://habr.com/ru/sandbox/26850/ - полная настройка
+[Настройка PROFTPD](https://habr.com/ru/sandbox/26850/ "полная настройка")
 
 
 Пользователи
