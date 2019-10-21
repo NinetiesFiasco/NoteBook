@@ -29,3 +29,7 @@
 
 Цитаты вставляются
 > с помощью угловой скобки >
+
+Пробуем блок кода
+    include_once 'myGoodlib.js';
+    return something;
