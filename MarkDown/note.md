@@ -33,3 +33,6 @@
 Пробуем блок кода
     include_once 'myGoodlib.js';
     return something;
+
+Горизонтальная линия ставится с помощью --- или ***
+***
