@@ -2,7 +2,7 @@ GIT
 =
 
 
-## Установка Ubuntu
+## Установка в Ubuntu
 `apt-get install git`
 
 ## Создать репозиторий
