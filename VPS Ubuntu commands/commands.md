@@ -18,7 +18,8 @@ Apache
 -
 * apt-get remove vsftpd - удалялъ FTP server
 * sudo apt install vsftpd - установить FTP server
-* поглядеть про FTP https://www.unixmen.com/install-configure-ftp-server-ubuntu/
+
+[Поглядеть про FTP](https://www.unixmen.com/install-configure-ftp-server-ubuntu/ "Страница про FTP")
 
 
 proftpd
