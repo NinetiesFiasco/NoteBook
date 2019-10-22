@@ -1,6 +1,6 @@
 # Установка для Windows
 ## Переходим на сайт 
-`git-scm.com`
+[Официальный сайт GIT] (git-scm.com "Official GIT")
 
 Скачиваем нужную версию (Windows 64bit) и устанавливаем её
 
