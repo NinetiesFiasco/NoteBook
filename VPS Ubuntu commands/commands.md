@@ -47,3 +47,6 @@ Ubuntu
 GIT
 -
 * apt-get install git - установка
+
+### Просмотр каталога
+* `ls`
