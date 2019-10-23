@@ -6,4 +6,4 @@
 
 ## Скачать ветку целиком
 
-1. `git clone <url> --branch BranchName
+1. `git clone <url> --branch BranchName`
