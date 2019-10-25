@@ -8,3 +8,21 @@
 ## Удалить пользователя
 
 * `deluser username` Удаление
+
+## Добавить группу
+
+* `sudo groupadd myGroup`
+
+## Добавить пользователя в группу
+
+* `sudo usermod -aG myGroup user`
+
+## Посмотреть группы пользователя 
+
+* `groups user`
+
+## Изменить группу папки
+* `sudo chgrp myGroup myFolder`
+
+## Раздать всё и сразу 
+* `chmod -R 777 myFolder`
