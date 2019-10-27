@@ -23,6 +23,10 @@
 `$ [sudo] npm install forever-monitor`
 * Установка сервиса 
 `npm install -g forever-service`
+
+## forever-service - модуль который запускает скрипт как демон
+
+В связке с forever помогает запускать скрипт при перезапуске системы
   
 ## pm2 (аналог сервиса forever)
 * Запуск из консоли
