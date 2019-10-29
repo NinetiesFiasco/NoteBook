@@ -1,11 +1,27 @@
 Здесь будут храниться команды для Ubuntu
 =
 
+Ubuntu
+-
+
+Узнать версию: `lsb_release -a`
+
 Apache
 -
 * sudo apachectl stop - единожды остановить сервис 
 * sudo update-rc.d apache2 disable - удалить из автозагрузки
 
+Для изменения портов можно воспользоваться консольным приложением nano  
+по путям /etc/apache2/ports.conf и /etc/apache2/sites-enabled/000-default.conf
+изменить порты на нужные.
+Как оказалось менять порт надо было в /etc/apache2/apache2.conf
+
+Для подключения php в том же /etc/apache2/apache2.conf указать  
+```
+<FilesMatch \.php$>
+  SetHandler application/x-httpd-php
+</FilesMatch>
+```
 
 Порты
 -
