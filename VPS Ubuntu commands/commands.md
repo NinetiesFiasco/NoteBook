@@ -1,10 +1,19 @@
-Здесь будут храниться команды для Ubuntu
+Команды Ubuntu
 =
 
 Ubuntu
 -
 
-Узнать версию: `lsb_release -a`
+* `lsb_release -a` Узнать версию
+* `sudo reboot` перезагрузка
+
+
+Файлы и папки
+-
+
+`ls` просмотр каталога
+`mkdir dirName` создать папку
+`touch fileName.extension` создать файл
 
 Apache
 -
@@ -47,22 +56,21 @@ ftpasswd --passwd --file=/etc/proftpd/ftpd.passwd --name=user --uid=34 --gid=34 
 [Настройка PROFTPD](https://habr.com/ru/sandbox/26850/ "полная настройка")
 
 
-Пользователи
+Пользователи, группы, права
 -
-* sudo useradd vasyapupkin - добавить пользователя  
-id -G   id групп  
-id -Gn или groups названия групп
-* chown root/root /var/www/user   -установка прав 0_о
-* chmod 775 /var/www/user   -установка разрешений 0_о (-R рекурсивно на все подпапки)
 
+`sudo useradd vasyapupkin` добавить пользователя  
+`id -G` id групп  
+`id -Gn` или groups названия групп
+`chown root/root /var/www/user` установка прав 0_о
+`chmod 775 /var/www/user`  установка разрешений 0_о (-R рекурсивно на все подпапки)
+`su - userName` войти как пользователь
+`cat /etc/group` посмотреть все группы
+`groups` посмотреть свои группы
 
-Ubuntu
--
-* sudo reboot - перезагрузка
+почему-то FTP работает только при allIn 777
+
 
 GIT
 -
-* apt-get install git - установка
-
-### Просмотр каталога
-* `ls`
+`apt-get install git` установка
