@@ -61,12 +61,12 @@ ftpasswd --passwd --file=/etc/proftpd/ftpd.passwd --name=user --uid=34 --gid=34 
 
 `sudo useradd vasyapupkin` добавить пользователя  
 `id -G` id групп  
-`id -Gn` или groups названия групп
-`chown root/root /var/www/user` установка прав 0_о
-`chmod 775 /var/www/user`  установка разрешений 0_о (-R рекурсивно на все подпапки)
-`su - userName` войти как пользователь
-`cat /etc/group` посмотреть все группы
-`groups` посмотреть свои группы
+`id -Gn` или groups названия групп  
+`chown root/root /var/www/user` установка прав 0_о  
+`chmod 775 /var/www/user`  установка разрешений 0_о (-R рекурсивно на все подпапки)  
+`su - userName` войти как пользователь  
+`cat /etc/group` посмотреть все группы  
+`groups` посмотреть свои группы  
 
 почему-то FTP работает только при allIn 777
 
