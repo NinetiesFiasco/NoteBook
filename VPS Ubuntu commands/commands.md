@@ -39,7 +39,7 @@ Apache
 
 Убить процесс по ID
 -
-`sudo kill procID' 
+`sudo kill procID`
 
 ПРО FTP
 -
