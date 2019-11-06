@@ -37,7 +37,9 @@ Apache
 * sudo netstat -ntulp -поглядеть какие порты работают
 * netstat -tulpn | grep :21 - проверка работоспособности порта
 
-
+Убить процесс по ID
+-
+`sudo kill procID' 
 
 ПРО FTP
 -
