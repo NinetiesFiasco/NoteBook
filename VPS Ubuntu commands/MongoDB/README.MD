@@ -9,3 +9,8 @@ https://www.youtube.com/watch?v=5lXVkB-yZWU&t=133s
 sudo systemctl enable mongodb 
 
 именнование сервиса всегда разное(((
+
+`show dbs` - показать все базы  
+`use dbName` - использовать базу  
+`show collections` - показать все коллекции  
+`db.collectionName.find()` - показать содержимое коллекции
