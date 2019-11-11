@@ -27,22 +27,22 @@ package.json
 `$ [sudo] npm install forever-monitor`
 * Установка сервиса 
 `npm install -g forever-service`  
-```                                                                                
-Commands to interact with service nodeTest  
-Start   - "sudo service nodeTest start"  
-Stop    - "sudo service nodeTest stop"  
-Status  - "sudo service nodeTest status"  
-Restart - "sudo service nodeTest restart"  
-```
 
 ## forever-service - модуль который запускает скрипт как демон
 
 В связке с forever помогает запускать скрипт при перезапуске системы  
 `sudo forever-service install serviceName --script app.js`
 
+```
+Commands to interact with service nodeTest  
+Start   - "sudo service nodeTest start"  
+Stop    - "sudo service nodeTest stop"  
+Status  - "sudo service nodeTest status"  
+Restart - "sudo service nodeTest restart"  
+```
   
 ## pm2 (аналог сервиса forever)
 * Запуск из консоли
 `pm2 start app.js`
 * Стоп в консоле
-`pm2 stop app.js
+`pm2 stop app.js`
