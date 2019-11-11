@@ -20,9 +20,9 @@ package.json
 `npm install hbs`
 
 ## forever - модуль который поддерживает код без запущенной консоли
-* Глобальная установка
-`$ [sudo] npm install forever -g`
-* Установка модуля в папку с проектом
+* Глобальная установка  
+`$ [sudo] npm install forever -g`  
+* Установка модуля в папку с проектом  
 `cd /path/to/your/project`  
 `$ [sudo] npm install forever-monitor`
 * Установка сервиса 
