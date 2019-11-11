@@ -26,7 +26,14 @@ package.json
 `cd /path/to/your/project`  
 `$ [sudo] npm install forever-monitor`
 * Установка сервиса 
-`npm install -g forever-service`
+`npm install -g forever-service`  
+```                                                                                
+Commands to interact with service nodeTest  
+Start   - "sudo service nodeTest start"  
+Stop    - "sudo service nodeTest stop"  
+Status  - "sudo service nodeTest status"  
+Restart - "sudo service nodeTest restart"  
+```
 
 ## forever-service - модуль который запускает скрипт как демон
 
