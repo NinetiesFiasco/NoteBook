@@ -30,7 +30,9 @@ package.json
 
 ## forever-service - модуль который запускает скрипт как демон
 
-В связке с forever помогает запускать скрипт при перезапуске системы
+В связке с forever помогает запускать скрипт при перезапуске системы  
+`sudo forever-service install serviceName --script app.js`
+
   
 ## pm2 (аналог сервиса forever)
 * Запуск из консоли
