@@ -1,7 +1,7 @@
 Сервер с SSL на 443 порту
 -
 
-'''
+```
 const https = require("https");
 const fs = require("fs");
 const port = 443;
@@ -21,7 +21,7 @@ https.createServer({
     key: privateKey,
     cert: certificate
 }, app).listen(port);
-'''
+```
 
 
 ### Тут можно сгенерить халявный сертификат
