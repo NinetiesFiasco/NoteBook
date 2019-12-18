@@ -12,7 +12,7 @@ Ubuntu
 -
 
 `ls` просмотр каталога  
-`cd` сменить каталог
+`cd` сменить каталог  
 `mkdir dirName` создать папку  
 `touch fileName.extension` создать файл  
 
