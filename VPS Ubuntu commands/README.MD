@@ -11,9 +11,10 @@ Ubuntu
 Файлы и папки
 -
 
-`ls` просмотр каталога
-`mkdir dirName` создать папку
-`touch fileName.extension` создать файл
+`ls` просмотр каталога  
+`cd` сменить каталог
+`mkdir dirName` создать папку  
+`touch fileName.extension` создать файл  
 
 Apache
 -
