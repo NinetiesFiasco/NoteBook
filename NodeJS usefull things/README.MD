@@ -31,7 +31,9 @@ package.json
 ## forever-service - модуль который запускает скрипт как демон
 
 В связке с forever помогает запускать скрипт при перезапуске системы  
-`sudo forever-service install serviceName --script app.js`
+`sudo forever-service install serviceName --script app.js`  
+Посмотреть работающие сервисы
+`forever list`
 
 ```
 Commands to interact with service nodeTest  
