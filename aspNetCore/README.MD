@@ -11,5 +11,5 @@ Go ASP
 
 ## Переменные среды
 Переменные настраиваются в файле `Properties\launchSettings.json`  
-А проверять их можно с помощью объекта env (класс IWebHostEnvironment)  
-Методы IsDevelopment() IsProduction() и др.
+А проверять их можно с помощью объекта `env` (класс `IWebHostEnvironment`)  
+Методы `IsDevelopment()` `IsProduction()` и др.
