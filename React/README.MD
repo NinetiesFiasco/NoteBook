@@ -1,4 +1,5 @@
-== `npx react-create-app app_name` Команда создаёт новое react приложение
+## Создать новое прилоежние 
+`npx react-create-app app_name` app_name название приложения
 
 Страница с подключенным React
 -
