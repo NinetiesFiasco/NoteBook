@@ -1,3 +1,15 @@
+Установка
+- 
+
+# `sudo apt install -y mongodb` 
+
+## Команды
+
+# `sudo systemctl status mongodb` проверка состояния
+# `sudo systemctl stop mongodb` Запуск
+# `sudo systemctl start mongodb` Остановка
+# `sudo systemctl reset mongodb` Перезапуск
+
 https://www.youtube.com/watch?v=5lXVkB-yZWU&t=133s
 
 отсюда вытащил команды
