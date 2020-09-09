@@ -8,10 +8,11 @@ Ubuntu
 * `sudo reboot` перезагрузка
 * `reset` очистить консоль
 
-Обновление
+Обновление Advanced Package Tool
 -
 
-* `sudo apt update` Обновление
+* 1. `sudo apt update` Загрузка обновлений
+* 2. `sudo apt upgrade` Обновление
 
 Файлы и папки
 -
