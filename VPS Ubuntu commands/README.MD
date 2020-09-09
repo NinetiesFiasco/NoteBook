@@ -21,6 +21,10 @@ Ubuntu
 * `mkdir dirName` создать папку  
 * `touch fileName.extension` создать файл  
 
+IP
+-
+* ip address
+
 Apache
 -
 * `sudo apachectl stop` - единожды остановить сервис 
