@@ -14,3 +14,11 @@
 
 ## Установка Yarn
 * `https://classic.yarnpkg.com/en/docs/install/#debian-stable` - Официальный сайт
+
+### Установка pm2
+
+* `npm install pm2@latest -g` - глобальная установка
+* `pm2 start script.js` - запуск скрипта script.js
+* `pm2 [list|ls|status]` - посмотреть все рабочие скрипты
+* `pm2 startup` - запускать pm2 при загрузке системы
+* `pm2 save` - сохранить текущий лист для перезагрузки
