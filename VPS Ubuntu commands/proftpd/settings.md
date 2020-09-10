@@ -1,4 +1,6 @@
-  ### настройки  
+  ### Настройки proftpd 
+  #### `sudo nano /etc/proftpd/proftpd.conf`  
+  
   `AllowOverwrite            on`  
   
   `RequireValidShell         off`  
