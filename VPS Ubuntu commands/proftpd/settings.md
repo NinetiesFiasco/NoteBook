@@ -34,7 +34,7 @@
 
   ### Журналы  
   `ExtendedLog               /var/log/ftp.log`  
-  `TransferLog               /var/log/xferlog`  
+  `TransferLog               /var/log/xfer.log`  
   `SystemLog                 /var/log/syslog.log`  
   
   // **** ЭТУ ШТУКУ УДАЛИТЬ ****   
