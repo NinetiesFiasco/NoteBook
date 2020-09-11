@@ -20,7 +20,7 @@ Ubuntu
 * `ls` просмотр каталога  
 * `cd` сменить каталог  
 * `mkdir dirName` создать папку  
-* `rm dirName` удалить папку
+* `rm -rf dirName` удалить папку
 * `touch fileName.extension` создать файл  
 
 IP
