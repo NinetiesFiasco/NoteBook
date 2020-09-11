@@ -20,6 +20,7 @@ Ubuntu
 * `ls` просмотр каталога  
 * `cd` сменить каталог  
 * `mkdir dirName` создать папку  
+* `rm dirName` удалить папку
 * `touch fileName.extension` создать файл  
 
 IP
@@ -51,23 +52,6 @@ Apache
 Убить процесс по ID
 -
 `sudo kill procID`
-
-ПРО FTP
--
-* `apt-get remove vsftpd` - удалялъ FTP server
-* `sudo apt install vsftpd` - установить FTP server
-
-[Поглядеть про FTP](https://www.unixmen.com/install-configure-ftp-server-ubuntu/ "Страница про FTP")
-
-
-proftpd
--
-* `sudo /etc/init.d/proftpd restart` - перезапуск сервиса
-* //Создать пользователя  
-ftpasswd --passwd --file=/etc/proftpd/ftpd.passwd --name=user --uid=34 --gid=34 --home=/var/www/user --shell=/bin/false
-
-[Настройка PROFTPD](https://habr.com/ru/sandbox/26850/ "полная настройка")
-
 
 Пользователи, группы, права
 -
