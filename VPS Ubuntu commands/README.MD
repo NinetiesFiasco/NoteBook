@@ -22,6 +22,7 @@ Ubuntu
 * `mkdir dirName` создать папку  
 * `rm -rf dirName` удалить папку
 * `touch fileName.extension` создать файл  
+* `mv curFileName newFileName` переименновать файл  
 
 IP
 -
