@@ -24,6 +24,12 @@ Ubuntu
 * `touch fileName.extension` создать файл  
 * `mv curFileName newFileName` переименновать файл  
 
+ZIP
+-
+
+* `sudo apt install zip unzip` установка
+* `zip proj.zip server src package.json` запакует в proj.zip папки server, src и файл package.json
+
 IP
 -
 * ip address
