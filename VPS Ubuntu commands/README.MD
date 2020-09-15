@@ -29,6 +29,7 @@ ZIP
 
 * `sudo apt install zip unzip` установка
 * `zip proj.zip server src package.json` запакует в proj.zip папки server, src и файл package.json
+* `unzip fld.zip destFld` распакует fld.zip в папку destFld
 
 IP
 -
