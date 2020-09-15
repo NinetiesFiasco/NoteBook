@@ -16,6 +16,7 @@
 * `https://classic.yarnpkg.com/en/docs/install/#debian-stable` - Официальный сайт
 
 * `curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add -` - Добавить репозиторий через curl
+* `echo "deb https://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/sources.list.d/yarn.list` - что-то где-то прописать
 * `sudo apt update && sudo apt install yarn` - Установить
 
 ### Установка pm2
