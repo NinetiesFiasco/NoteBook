@@ -14,7 +14,7 @@ body {
 
 ### Размер блоков
 `
-\* {  
+ \* {  
   box-sizing: border-box;  
 }  
 `  
