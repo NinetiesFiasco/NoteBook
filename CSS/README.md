@@ -4,18 +4,18 @@ CSS
 ## Обнуление стилей
 
 ### Отступы от края окна
-`
-body {  
-  padding: 0px;  
-  margin: 0px;  
-}  
-`  
+```
+body {
+  padding: 0px;
+  margin: 0px;
+}
+```
 Убираем отступы от края окна по умолчанию
 
 ### Размер блоков
-`
- \* {  
-  box-sizing: border-box;  
-}  
-`  
+```
+* {
+  box-sizing: border-box;
+}
+```  
 Размер блоков (свойство width) включает в себя padding и border
