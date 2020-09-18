@@ -1,6 +1,7 @@
+Данные о браузере
+-  
 
-" Высота экрана " + window.screen.height + 
-" Высота области видимости" + document.documentElement.clientHeight +
-" Отступ блока "+ref.current.getBoundingClientRect().top + 
-" Скролл " + window.scrollY +
-" Нужная высота: " + height
+* `window.screen.height` - Высота экрана  
+* `document.documentElement.clientHeight` - Высота области видимости  
+* `ref.current.getBoundingClientRect().top` - Отступ блока  
+* `window.scrollY` - Скролл
