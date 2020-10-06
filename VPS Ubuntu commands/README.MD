@@ -23,6 +23,7 @@ Ubuntu
 * `rm -rf dirName` удалить папку
 * `touch fileName.extension` создать файл  
 * `mv curFileName newFileName` переименновать файл  
+* `cp -R folder1 folder2` скопировать папку 1 в папку 2
 
 ZIP
 -
