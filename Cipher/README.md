@@ -6,6 +6,7 @@
 `Encoding.UTF8.GetByets(str)` - Получить массив байтов из строки
 `Convert.ToBase64String(buffer)` - Получить base64 строку из массива байтов
 
+## получить md5 хэш
 #### `using System.Security.Cryptography;`
 ```
 byte[] hash = Encoding.UTF8.GetBytes(str);    
@@ -15,4 +16,4 @@ string result = "";
 foreach (byte b in buff){  
   result += b.ToString("x2")  
 }  
-``` - получить md5 хэш
+```
