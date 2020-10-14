@@ -3,8 +3,11 @@
 
 ## C# 
 #### `using System.Text;` 
-`Encoding.UTF8.GetByets(str)` - Получить массив байтов из строки
-`Convert.ToBase64String(buffer)` - Получить base64 строку из массива байтов
+`Encoding.UTF8.GetBytes(str)` - Получить массив байтов из строки  
+`Encoding.UTF8.GetString(buffer)` - Получить строку из  массива байтов  
+
+`Convert.ToBase64String(buffer)` - Получить base64 строку из массива байтов  
+`Convert.FromBase64String(buffer)` - Получить массив байтов из base64 строки
 
 ## получить md5 хэш
 #### `using System.Security.Cryptography;`
