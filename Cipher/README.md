@@ -8,11 +8,11 @@
 
 #### `using System.Security.Cryptography;`
 `
-byte[] hash = Encoding.UTF8.GetBytes(str)
-MD5 md = MD5.Create();
-byte[] buff = md5.ComputeHash(hash);
-string result = "";
-foreach (byte b in buff){
-  result += b.ToString("x2")
-}
+byte[] hash = Encoding.UTF8.GetBytes(str)  
+MD5 md = MD5.Create();  
+byte[] buff = md5.ComputeHash(hash);  
+string result = "";  
+foreach (byte b in buff){  
+  result += b.ToString("x2")  
+}  
 ` - получить md5 хэш
