@@ -10,3 +10,13 @@
 cd "C:\Program Files\MySQL\MySQL Server 8.0\bin"
 .\mysqld --defualts-file="C:\\ProgramData\\MySQL\\MySQL Server 8.0\\my.ini" --init-file=C:\\sql\init.txt
 ```
+
+mysql запросы: 
+* Добавить нового пользователя и подарить ему все права
+```
+CREATE USER 'user'@'localhost' IDENTIFIED BY 'pass';
+
+GRANT ALL PRIVILEGES ON * . * TO 'user'@'localhost';
+
+FLUSH PRIVILEGES;
+```
